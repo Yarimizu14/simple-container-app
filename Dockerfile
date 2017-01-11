@@ -6,6 +6,6 @@ RUN pip install -r /app/requirements.txt
 
 WORKDIR /app
 
-EXPOSE 80
+EXPOSE 5123
 
 CMD python app.py
